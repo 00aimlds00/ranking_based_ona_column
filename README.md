@@ -13,6 +13,6 @@ SELECT s.name, s.marks, COUNT(t.marks) AS 'Rank' FROM (SELECT DISTINCT marks FRO
 
 The following output is generated
 
-![image](https://github.com/00aimlds00/ranking_based_ona_column/assets/114329091/4b4bc038-8ec4-4033-83d6-c5a851fae1fa)
+![image](https://github.com/00aimlds00/ranking_based_ona_column/assets/114329091/4a7aa0a6-72b4-4cd7-bc1a-8f2308c46422)
 
 It may be noticed here that Ranks 15 and 17 allocated to more than 1 names as their marks are same.
